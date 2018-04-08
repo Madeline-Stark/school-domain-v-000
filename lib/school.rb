@@ -28,5 +28,6 @@ def sort
         a <=> b
       end
     hash[new_key] << "grade => new_student_array"
+    hash[new_key]
   end
 end
