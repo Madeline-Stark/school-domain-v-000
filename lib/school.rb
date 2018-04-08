@@ -28,5 +28,4 @@ def sort
       end
     "grade => new_student_array"
   end
-
 end
