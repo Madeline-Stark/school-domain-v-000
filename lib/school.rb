@@ -27,7 +27,7 @@ def sort
       student_name.sort do |a, b|
         a <=> b
       end
-    "grade => new_student_array"
+    hash << "grade => new_student_array"
   end
 
 end
