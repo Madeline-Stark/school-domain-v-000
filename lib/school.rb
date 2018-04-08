@@ -32,7 +32,7 @@ def sort
       grade.sort do |a, b|
         a <=> b
       end
-  "grade => new_student_array"
+  "new_grade_array => new_student_array"
   end
   end
 end
