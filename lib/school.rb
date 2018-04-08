@@ -21,7 +21,6 @@ class School
 
   def sort
   roster.collect do |grade, student_name|
-    "#{roster[grade]}=>"
       student_name.sort do |a, b|
         a <=> b
       end
