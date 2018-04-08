@@ -34,7 +34,7 @@ def sort
         a <=> b
       end
     end
-  "grade => new_student_array"
+  "new_grade_array => new_student_array"
   end
   end
 end
