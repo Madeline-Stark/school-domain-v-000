@@ -21,7 +21,7 @@ class School
 
 def sort
   new_student_array = []
-  hash[new_key] = {}
+  hash = {}
   roster.each do |grade, student_name|
     new_student_array <<
       student_name.sort do |a, b|
@@ -29,5 +29,5 @@ def sort
       end
     hash[new_key] << "grade => new_student_array"
   end
-  hash[new_key]
+  hash
 end
