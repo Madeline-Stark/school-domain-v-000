@@ -20,7 +20,7 @@ class School
   end
 
 def sort
-  roster.each do |grade|
+  roster.each do |grade, student_name|
     new_student_array = []
     hash = {}
     new_student_array <<
