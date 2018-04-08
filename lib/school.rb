@@ -20,6 +20,7 @@ class School
   end
 
   def sort
+  {
   roster.each do |grade, student_name|
     new_student_array = []
     new_hash = []
@@ -30,5 +31,5 @@ class School
   "grade => new_student_array"
   end
   end
-
+  }
 end
