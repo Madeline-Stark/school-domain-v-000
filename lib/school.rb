@@ -21,11 +21,12 @@ class School
 
 def sort
   new_student_array = []
+  hash = {}
   roster.collect do |grade, student_name|
     new_student_array <<
       student_name.sort do |a, b|
         a <=> b
       end
-    "grade => new_student_array"
+    hash << "grade => new_student_array"
   end
 end
