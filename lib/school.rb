@@ -25,7 +25,8 @@ def sort
   roster.each do |grade, student_names|
     new_student_array << student_names.sort
   binding.pry
-  hash[grade] << new_student_array
+  hash[grade] = []
+  hash[grade] new_student_array
   end
   hash
 end
