@@ -20,8 +20,8 @@ class School
   end
 
 def sort
+  new_student_array = []
   roster.collect do |grade, student_name|
-    new_student_array = []
     new_student_array <<
       student_name.sort do |a, b|
         a <=> b
