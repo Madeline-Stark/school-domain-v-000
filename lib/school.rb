@@ -25,7 +25,8 @@ def sort
   new_student_array = []
     new_student_array << student_names.sort
   hash[grade] = []
-  hash[grade] << new_student_array.flatten
+  hash[grade] << new_student_array
+  hash[grade].flatten
   end
   hash
 end
