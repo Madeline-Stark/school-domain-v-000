@@ -24,9 +24,7 @@ def sort
   hash = {}
   roster.each do |grade, student_name|
     new_student_array <<
-      student_name.sort do |a, b|
-        a <=> b
-      end
+      student_name.sort
     hash[new_key] << "grade => new_student_array"
   end
   hash
