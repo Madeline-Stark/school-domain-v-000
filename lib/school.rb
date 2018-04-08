@@ -19,7 +19,7 @@ class School
     roster[year]
   end
 
-  def sort
+def sort
   roster.each do |grade, student_name|
     new_student_array = []
     new_hash = []
